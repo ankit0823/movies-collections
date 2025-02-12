@@ -8,10 +8,16 @@ body{
 /* html {
   scroll-behavior: smooth;
 } */
-.scrollbar-hide::-webkit-scrollbar {
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* Hide scrollbar but allow scrolling */
+::-webkit-scrollbar {
   display: none;
 }
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+
+body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }

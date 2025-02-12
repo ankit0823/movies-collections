@@ -4,9 +4,9 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-opacity-80 text-white py-4 px-8 flex justify-between items-center z-50 shadow-md">
+    <header className="fixed top-0 left-0 w-full bg-opacity-80 text-white py-4 px-8 flex justify-between items-center z-50">
       {/* Logo */}
-      <h1 className="text-2xl font-bold text-red-500 cursor-pointer">Utsav</h1>
+      <img className="w-24 h-12 bg-transparent" src="logo.png"/>
 
       {/* Navigation Links */}
       <nav className={`md:flex space-x-6 ${isMobileMenuOpen ? 'block' : 'hidden'} md:block`}>

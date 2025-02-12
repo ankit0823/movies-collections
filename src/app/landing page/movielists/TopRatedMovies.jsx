@@ -45,7 +45,7 @@ const TopRatedMovies = () => {
             </div>
             <div ref={scrollRef} className="flex overflow-x-auto space-x-4 scrollbar-hide">
                 {movies.map(movie => (
-                    <div key={movie.id} className="bg-[#1F1F1F] p-4 rounded-lg text-white flex-shrink-0 w-[241px] sm:w-[200px] md:w-[220px] lg:w-[241px]">
+                    <div key={movie.id} className="bg-[#1F1F1F] p-4 rounded-lg text-white flex-shrink-0 hover:scale-105  transition-all cursor-pointer w-[241px] sm:w-[200px] md:w-[220px] lg:w-[241px]">
                         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} className="w-full h-[281px] rounded-lg mb-2" />
                         <h3 className="text-lg font-bold">{movie.title}</h3>
                         <div className="flex items-center justify-between text-gray-400 text-sm mt-1">
