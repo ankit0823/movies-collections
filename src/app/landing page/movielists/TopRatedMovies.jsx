@@ -49,7 +49,7 @@ const TopRatedMovies = () => {
                         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} className="w-full h-[281px] rounded-lg mb-2" />
                         <h3 className="text-lg font-bold">{movie.title}</h3>
                         <div className="flex items-center justify-between text-gray-400 text-sm mt-1">
-                            <p>{Math.floor(movie.runtime / 60)}h {movie.runtime % 60}min</p>
+                            <p>{movie.vote_average} <span className='p-2 rounded-lg items-center text-sm text-white bg-yellow-500' >IMBD</span> </p>
                             <div className="flex items-center gap-1">
                                 <span className="text-red-500 text-lg">★★★★★</span>
                                 <p>20K</p>
