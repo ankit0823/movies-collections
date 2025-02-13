@@ -49,13 +49,14 @@ const Header = () => {
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
       {/* Main Content */}
-      <div className="relative flex flex-col items-center justify-end h-full pb-8 sm:pb-12 md:pb-16 text-center text-white z-10">
+      <div className="relative flex flex-col items-center justify-end h-full pb-8 sm:pb-12 md:pb-16 text-white z-10">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold drop-shadow-lg">
-          Best Indian Movies Streaming on Utsav
+          Best Viewing expirence with Utsav
         </h1>
-        <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-xs sm:max-w-md md:max-w-2xl mt-2 sm:mt-3 md:mt-4">
-          Enjoy a curated collection of the best Indian movies, from Bollywood blockbusters to regional cinema. 
-          Experience top-notch storytelling and unforgettable performances, anytime, anywhere.
+        <p className="text-sm sm:text-base md:text-lg text-left text-gray-600 max-w-xs sm:max-w-md md:max-w-2xl mt-2 sm:mt-3 md:mt-4">
+          Utsav is the best streaming expirence for watching your favorite movies and show on demand, anytime, anywere. 
+          with Utsav,you can enjoy a wide varity of content, including and latest blockbusters, classic movies, popular 
+          TV shows,and more. You can also create wour own watchlists, so you can easily find thee content you want to watch.
         </p>
         <button className="mt-4 sm:mt-5 md:mt-6 bg-red-600 text-white px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-md text-sm sm:text-base md:text-lg font-semibold hover:bg-red-700 transition">
           <i className="ri-play-large-fill"></i> Start Watching Now

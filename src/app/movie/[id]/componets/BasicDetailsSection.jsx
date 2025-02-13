@@ -73,10 +73,10 @@ const BasicDetailsSection = ({ movie }) => {
                 <h2 className="text-lg font-semibold">Director</h2>
             </div>
             <div className="bg-[#0F0F0F] p-4 rounded-lg flex items-center gap-4 mb-4">
-                <img src="/director.jpg" alt="Director" className="w-12 h-12 rounded-full" />
+                <img src="{`https://image.tmdb.org/t/p/w500${director.profile_path}`}"  alt="Director" className="w-12 h-12 rounded-full" />
                 <div>
                     <p className="font-bold">{movie.director}</p>
-                    <p className="text-gray-400 text-sm">From India</p>
+                    
                 </div>
             </div>
 
@@ -86,10 +86,10 @@ const BasicDetailsSection = ({ movie }) => {
                 <h2 className="text-lg font-semibold">Music</h2>
             </div>
             <div className="bg-[#0F0F0F] p-4 rounded-lg flex items-center gap-4">
-                <img src="/music-director.jpg" alt="Music Director" className="w-12 h-12 rounded-full" />
+                <img src="" alt="Music Director" className="w-12 h-12 rounded-full" />
                 <div>
                     <p className="font-bold">{movie.music_director}</p>
-                    <p className="text-gray-400 text-sm">From India</p>
+                    
                 </div>
             </div>
         </div>

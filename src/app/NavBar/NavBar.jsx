@@ -4,7 +4,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-opacity-80 text-white py-4 px-8 flex justify-between items-center z-50">
+    <header className="fixed hidden top-0 left-0 w-full bg-opacity-80 text-white py-4 px-8 justify-between items-center z-50">
       {/* Logo */}
       <img className="w-24 h-12 bg-transparent" src="logo.png"/>
 
