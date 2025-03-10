@@ -123,7 +123,7 @@ const Form = () => {
                       >
                         <AiOutlineExclamationCircle
                           size={20}
-                          className="text-gray-500 hover:text-gray-700"
+                          className="text-gray-800 hover:text-gray-700"
                         />
                       </button>
                     </InputAdornment>
