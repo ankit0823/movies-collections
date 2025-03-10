@@ -1,59 +1,32 @@
-import { comment } from "postcss";
-import React, { useState } from "react";
+
+import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
 
-  const [email, setEamil] = useState()
-  const [firstname, setFirstname] = useState()
-  const [lastname, setLastname] = useState()
-  const [contact, setContact] = useState()
-  const [comment, setComment] = useState()
+  // const [email, setEamil] = useState()
+  // const [firstname, setFirstname] = useState()
+  // const [lastname, setLastname] = useState()
+  // const [contact, setContact] = useState()
+  // const [comment, setComment] = useState()
 
-  const sumbmitHandeler = () => {
-
-    setComment("")
-    setEamil("")
-    setComment("")
-    setContact("")
-    setFirstname("")
-    setLastname("")
+  const sumbmitHandeler = (e) => {
+  //   setComment("")
+  //   setEamil("")
+  //   setComment("")
+  //   setContact("")
+  //   setFirstname("")
+  //   setLastname("")
   }
 
   return (
     <>
-    <form className=" bg-white w-full h-screen relative border border-blue-300" onChange={sumbmitHandeler()} action=" ">
-
-        <div className="w-[400px] p-5 absolute top-32 left-32 flex flex-col">
-          <h1 className="text-xl text-center ">Feedback form</h1>
-          First name
-          <input
-            className="border border-black p-3 mb-4"
-            type="text"
-            value={firstname}
-            required
-            placeholder="Enter first name"
-          />
-          Last name
-          <input type="text" value={lastname} className="border border-black p-3 mb-4" required placeholder="Enter first name" />
-          Email
-          <input type="Email" value={email} className="border border-black p-3 mb-4" required placeholder="Enter your email" />
-          Contact
-          <input type="" value={contact} className="border border-black p-3 mb-4" required placeholder="Enter contact no" />
-          <div>
-            coment section
-            <input type="comment" value={comment} className="border border-black p-3 mb-4" required placeholder="Enter contact no" />
-            <textarea name="deiscription"></textarea>
-            {/* <input type="text-area"/> */}
-          </div>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-      {/* <footer className="bg-black text-white py-10">
+     
+       <footer className="bg-black text-white py-10">
       <div className="container mx-auto px-6">
-        {/* Footer Top Section 
+        {/* Footer Top Section */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-          {/* Home Section
+          {/* Home Section*/}
           <div>
             <h3 className="text-lg font-semibold mb-2">Home</h3>
             <ul className="space-y-2 text-gray-400">
@@ -64,7 +37,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Movies Section 
+          {/* Movies Section */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Movies</h3>
             <ul className="space-y-2 text-gray-400">
@@ -75,7 +48,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Shows Section 
+          {/* Shows Section */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Shows</h3>
             <ul className="space-y-2 text-gray-400">
@@ -86,7 +59,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Support Section 
+          {/* Support Section */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Support</h3>
             <ul className="space-y-2 text-gray-400">
@@ -94,7 +67,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Subscription Section
+          {/* Subscription Section*/}
           <div>
             <h3 className="text-lg font-semibold mb-2">Subscription</h3>
             <ul className="space-y-2 text-gray-400">
@@ -103,7 +76,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Media Section 
+          {/* Social Media Section */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Connect With Us</h3>
             <div className="flex space-x-3">
@@ -120,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Bottom Section 
+        {/* Footer Bottom Section */}
         <div className="border-t border-gray-700 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <p className="text-center md:text-left">©2023 Utsav, All Rights Reserved</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
@@ -130,7 +103,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>  */}
+    </footer>  
       {/* Feedback form fields - FirstName, LastName, Email, Contact, Image Selection, Comments */}
 
       
